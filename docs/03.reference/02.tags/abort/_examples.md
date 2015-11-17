@@ -1,1 +1,8 @@
-*There are currently no examples for this tag.*
+	<cfloop from="1" to="10" index="x">
+		
+		<cfdump var="#x#" />
+
+		<!--- stops loop with x variable dump --->
+		<cfabort />	
+		
+	</cfloop>
